@@ -1,0 +1,33 @@
+--Display the last name and salary for an employees who 
+--salary is not the range 5000 through 12000
+
+
+
+--Display the last name and department ID of all employees in departments 20 or 50 in 
+--ascending alphabetical order by last name
+
+
+
+--Display the last name and salary of employees who earned between 
+--5000 and 12000 and are in department 20 and 50 
+--level the column employee and monthly salary respectively
+
+
+            
+
+--Create a report to display the last name, salary, and commission of all employees who earn
+--commissions. Sort the data in descending order of salary and commissions.
+--Use the column�s numeric position in the ORDER BY clause. 
+
+
+
+
+--display the last name, salary, and commission for all
+--employees whose commission is 20%
+
+
+
+
+--The HR department needs a report to display the employee number, last name, salary, and
+--salary increased by 15.5% (expressed as a whole number) for each employee. Label the
+--column New Salary.
