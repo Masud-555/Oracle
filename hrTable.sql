@@ -19,4 +19,18 @@ address varchar2(45)
 describe emp;
 
 select * 
-from emp_1287462;
+from emp_1287462; 
+
+alter table emp add (
+department_id number(6),
+dept_name varchar2(30)
+);
+
+
+insert into emp values(1,'masud',5000,'masud@gmail.com');
+insert into emp values(2,'imran',5000,'imran@gmail.com');
+insert into emp values(3,'ishtiyaq',5000,'ishtiyaq@gmail.com');
+insert into emp values(4,'arif',5000,'arif@gmail.com');
+
+select *
+from emp;
