@@ -36,4 +36,11 @@ SELECT * FROM emp;
     from employees
     group by employee_id
     having avg(salary)>10000;
+    
+    
+select last_name,hire_date
+from employees
+where hire_date > (select hire_date 
+                    from employees
+                    where last_name='Davies')
  
